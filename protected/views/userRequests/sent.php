@@ -18,7 +18,7 @@ $('.search-form form').submit(function(){
 
 ?>
 
-<h3>User Requests</h3>
+<h3>Tracking Diseases</h3>
 <hr />
 
 <?php 

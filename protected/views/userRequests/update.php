@@ -7,7 +7,7 @@ $this->breadcrumbs=array(
 
 ?>
 
-<h3>Update User Request <?php echo $model->id; ?></h3>
+<h3>Update Tracking Disease <?php echo $model->id; ?></h3>
 <hr/>
 
 <?php 

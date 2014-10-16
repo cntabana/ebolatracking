@@ -1,11 +1,11 @@
 <?php
 $this->breadcrumbs=array(
-	'User Requests'=>array('index'),
+	'Tracking Disease'=>array('index'),
 	$model->id,
 );
 ?>
 
-<h3>View UserRequests #<?php echo $model->id; ?></h3>
+<h3>View Tracking Diseases #<?php echo $model->id; ?></h3>
 <hr />
 <?php 
 $this->beginWidget('zii.widgets.CPortlet', array(
