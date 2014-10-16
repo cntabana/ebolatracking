@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 if(isset($_GET['sender']) and isset($_GET['msg']))
 {
-$con = mysqli_connect("localhost","root","","psfdb");
+$con = mysqli_connect("localhost","root","","eboladb");
 //$msg = "kubaza*cntabana@yahoo.fr*ndifuza kumenya amazina yanjye";//$_GET['msg'];
 //$msg = "igisubizo*13";
 
