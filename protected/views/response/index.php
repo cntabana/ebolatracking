@@ -18,7 +18,7 @@ $('.search-form form').submit(function(){
 
 ?>
 
-<h1>Responses</h1>
+<h1>Feedback</h1>
 <hr />
 
 <?php 
