@@ -7,7 +7,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Private Sector Federation',
+	'name'=>' Diseases Tracking System',
 	'theme' => 'bootstrap',
 
 	// preloading 'log' component
@@ -71,7 +71,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=psfdb',
+			'connectionString' => 'mysql:host=localhost;dbname=eboladb',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',

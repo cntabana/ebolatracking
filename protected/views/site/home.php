@@ -16,7 +16,7 @@ $this->Widget('ext.highcharts.HighchartsWidget', array(
 		    'tooltip'=>array ('valueSuffix'=> ' Status'), 
 			'legend'=>array('borderWidth'=> 1),
             'credits'=>array('enabled'=>false),
-            'title' => array('text'=>'Requests'),
+            'title' => array('text'=>'Tracking Diseases'),
             'legend'=> array('enabled'=>false),
             'plotOptions'=>array('pie'=>array('dataLabels'=>array('enabled'=>true),'showInLegend'=> true, 'allowPointSelect'=> true,                    'cursor'=> 'pointer')),
             'xAxis' => array('categories'=>$status),

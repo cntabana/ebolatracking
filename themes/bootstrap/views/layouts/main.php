@@ -32,7 +32,7 @@ if(yii::app()->user->group == 2){
                 array('label'=>'Home', 'url'=>array('/site/index'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'User Management', 'url'=>array('/user'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Departments', 'url'=>array('/departments'), 'visible'=>!Yii::app()->user->isGuest),
-                array('label'=>'Requests', 'url'=>array('/request'), 'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Tracking Diseases', 'url'=>array('/request'), 'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Position', 'url'=>array('/position'), 'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Response', 'url'=>array('/response'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Backup', 'url'=>array('/backup'), 'visible'=>!Yii::app()->user->isGuest),
@@ -68,10 +68,10 @@ else{
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/home'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'New Requests', 'url'=>array('/request/newRequest'), 'visible'=>!Yii::app()->user->isGuest),
-                array('label'=>'Open Requests', 'url'=>array('/request/archive'), 'visible'=>!Yii::app()->user->isGuest),
-                array('label'=>'Under Process Requests', 'url'=>array('/request/underProcess'), 'visible'=>!Yii::app()->user->isGuest),
-                 array('label'=>'Closed Requests', 'url'=>array('/request/closed'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'New Tracking Diseases', 'url'=>array('/request/newRequest'), 'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Open Tracking Diseases', 'url'=>array('/request/archive'), 'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Under Process Tracking Diseases', 'url'=>array('/request/underProcess'), 'visible'=>!Yii::app()->user->isGuest),
+                 array('label'=>'Closed Tracking Diseases', 'url'=>array('/request/closed'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
             ),

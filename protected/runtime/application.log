@@ -3792,3 +3792,12 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/psf/index.php?r=requests
 ---
+2014/10/16 22:50:03 [warning] [application] Failed to set unsafe attribute "users" of "Position".
+in C:\xampp\htdocs\ebolatracking\protected\controllers\PositionController.php (96)
+in C:\xampp\htdocs\ebolatracking\index.php (13)
+2014/10/16 22:50:45 [warning] [application] Failed to set unsafe attribute "users" of "Position".
+in C:\xampp\htdocs\ebolatracking\protected\controllers\PositionController.php (96)
+in C:\xampp\htdocs\ebolatracking\index.php (13)
+2014/10/16 22:51:24 [warning] [application] Failed to set unsafe attribute "users" of "Position".
+in C:\xampp\htdocs\ebolatracking\protected\controllers\PositionController.php (96)
+in C:\xampp\htdocs\ebolatracking\index.php (13)
