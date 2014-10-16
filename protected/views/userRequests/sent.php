@@ -64,10 +64,10 @@ $this->endWidget();
         ),
 		 array(
                 'name'=>'idrequest0.request',
-                   'header'=>'Request',
+                   'header'=>'Tracking Diseases',
                    'type'=>'raw',
                   // 'value'=>'$data->nameofmd',
-				   'value'=>'CHtml::link("View Request",Yii::app()->createUrl("userRequests/view", array("id"=>$data["id"])))',
+				   'value'=>'CHtml::link("View Tracking Diseases",Yii::app()->createUrl("userRequests/view", array("id"=>$data["id"])))',
                    //'htmlOptions'=>array('width'=>'40'),
                   
            ),

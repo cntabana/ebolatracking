@@ -64,7 +64,7 @@ $this->endWidget();
         ),
 		 array(
                 'name'=>'idrequest0.request',
-                   'header'=>'Request',
+                   'header'=>'Tracking Disease',
                    'type'=>'raw',
                   // 'value'=>'$data->nameofmd',
 				   'value'=>'CHtml::link("View Request",Yii::app()->createUrl("userRequests/view", array("id"=>$data["id"])))',
@@ -73,7 +73,7 @@ $this->endWidget();
            ),
 		  array(
                 
-                   'header'=>'Reponse',
+                   'header'=>'Feedback',
                    'type'=>'raw',
                    'value'=>'CHtml::link("Response",Yii::app()->createUrl("response/create", array("idrequest"=>$data["idrequest"])))',
                    //'htmlOptions'=>array('width'=>'40'),
